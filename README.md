@@ -8,9 +8,9 @@ This baseline serves as a reference model for more advanced detection experiment
 The model performs both bounding box localization and traffic sign class prediction.
 
 The overall workflow and model variants used in the project are illustrated in the accompanying flowchart.
-
-<img width="1420" height="1220" alt="Detection_flowchart" src="https://github.com/user-attachments/assets/5ad30c66-b45b-4cda-b254-67424d1e85f1" />
-
+<p align="center">
+<img width="500" alt="Detection_flowchart" src="https://github.com/user-attachments/assets/5ad30c66-b45b-4cda-b254-67424d1e85f1" />
+</p>
 
 ## Repository Structure
 
@@ -73,8 +73,9 @@ The dataset is downloaded automatically when running the data upload section in 
 I visualize samples from the dataset with bounding boxes and class IDs overlaid on the images.
 Each numeric label corresponds to a traffic sign class defined in the GTSDB label specification.
 
+<p align="center">
 <img width="794" height="498" alt="image" src="https://github.com/user-attachments/assets/7d012d07-54af-4780-8517-7cd8e31cc608" />
-
+</p>
 
 ### Data Augmentation
 To improve robustness, I apply lightweight augmentations using Albumentations, ensuring consistency between images and bounding boxes:
