@@ -179,10 +179,14 @@ These settings provide:
 The training and validation curves shows the baseline pre-trained model achieving rapid convergence with training loss decreasing from 0.48 to 0.06 and validation loss stabilizing at 0.13 by epoch 25, demonstrating effective transfer learning with minimal overfitting. 
 
 <p align="center">
+    
 ![baseline_curve](https://github.com/user-attachments/assets/3a40af57-c2be-4bc4-9cef-ff84f203a00d)
+
 </p>
 
+
 ## Results
+
 | Metric | Value |
 |------|------|
 | Precision | 89.0% |
