@@ -212,7 +212,7 @@ This project is part of a larger, structured exploration of traffic sign detecti
 
 ### 1. Faster R-CNN with Custom Neck
 
-Repository: traffic-sign-detection-faster-rcnn-custom-neck
+Repository: [traffic-sign-detection-faster-rcnn-custom-neck](https://github.com/Ureed-Hussain/Traffic-sign-detection-faster-rcnn-custom-neck)
 
 In this repository, I extend the baseline detector by designing and integrating a custom neck module in place of the standard FPN. The goal is to investigate how alternative feature aggregation strategies affect multi-scale representation, detection accuracy, and training stability, while keeping the backbone and detection head unchanged. This allows for an isolated and fair evaluation of neck design choices.
 
